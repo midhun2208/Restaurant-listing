@@ -1,0 +1,9 @@
+.roww{
+    width: 98%;
+}
+
+@media only screen and (max-width: 600px){
+    .roww{
+        width: 100%;
+    }
+}
