@@ -12,7 +12,7 @@ function Allrest() {
   const [allResturant,setAllResturant] = useState([])
 
   const fetchData = async() =>{
-    const response = await axios.get('http://localhost:3001/restaurants')
+    const response = await axios.get('https://restaurant-server-5kob.onrender.com/restaurants')
     
     setAllResturant(response.data)
   }
