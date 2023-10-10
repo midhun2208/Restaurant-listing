@@ -26,7 +26,7 @@ function Viewrest() {
 
     //Api ca,ll for get data of the particular resturant
     const fetchData = async () => {
-        const {data} = await axios.get(`http://localhost:3001/restaurants/${id}`)
+        const {data} = await axios.get(`https://restaurant-server-5kob.onrender.com/restaurants/${id}`)
         console.log(data);
         setRestDetails(data)
     }
